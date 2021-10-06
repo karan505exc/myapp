@@ -1,0 +1,258 @@
+.mai-div-layout2{
+    width: 94%;
+    height: 100vh;
+   position: relative;
+   margin: auto;
+   
+}
+.smpl-box{
+    width: 94%;
+    height: 20.3rem;
+    top: 0;
+    margin-left: 2.3%;
+    background-color: #EEEEEE;
+   position: absolute;
+    margin-top: 4rem;
+    border-radius: 8px;
+
+}
+.smpl-box div{
+    padding: 4rem;
+}
+.smpl-box div p{
+  font-size: 3.8rem;
+}
+.smpl-box div span{
+    font-size: 1.2rem;
+}
+.smpl-box button{
+    margin-top: 1rem;
+    padding: .2rem .6rem;
+    color: white;
+}
+.mybtn{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #428BCA;
+    border: 1px solid #428BCA;
+}
+.latest-feature-heading{
+    font-size: 1.6rem;
+    margin-top: 3rem;
+}
+.latest-features{
+    width: 94%;
+    position: absolute;
+ 
+    top: 395px;
+  
+    margin-left: 2%;
+
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 260px;
+    border: 1 px solid gray;
+    margin-bottom: 200px;
+
+}
+.card img{
+    width: 250px;
+    margin: .2rem;
+}
+.feature-info{
+    margin: auto;
+}
+.feature-head{
+    margin: auto;
+    padding: 10px;
+   text-align: center;
+}
+.feature-head p{
+    font-size: .9rem;
+    padding: .2rem;
+}
+.feature-head div{
+    font-size: 1.5rem;
+}
+.feat-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: -1.2rem;
+    
+}
+.feat-btn button{
+    margin: 5px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding-bottom: .3rem;
+    
+}
+.btn1{
+    background-color: #428BCA;
+    padding: .3rem .4rem;
+    color: white;
+    font-size: .9rem;
+    border: 1px solid #428BCA;;
+}
+.btn2{
+    background-color: #FFFFFF;
+    padding: .3rem .4rem;
+    font-size: .8rem;
+    border: 1px solid #CCCCCC
+}
+.second-hr{
+   margin-top: -9rem;
+}
+.footer{
+    margin-top: 3rem;
+    font-size: .9rem;
+}
+
+
+/* ----------------media query------------------ */
+
+@media only screen and (max-width: 250px) and (min-width: 10px) {
+    .smpl-box div{
+        padding: 1rem;
+       
+    }
+    .smpl-box div p{
+        font-size: 1rem;
+      }
+      .smpl-box div span{
+          font-size: 1.2rem;
+      }
+      .smpl-box button{
+          margin-top: .5rem;
+          padding: .2rem .6rem;
+          color: white;
+      }
+  }
+  @media only screen and (max-width: 340px) and (min-width: 250px) {
+    .smpl-box div{
+        padding: 1rem;
+  
+    }
+    .smpl-box div p{
+        font-size: 2rem;
+      }
+      .smpl-box div span{
+          font-size: 1rem;
+      }
+      .smpl-box button{
+          margin-top: .5rem;
+          padding: .2rem .6rem;
+          color: white;
+      }
+      .second-hr{
+        margin-top: 1rem;
+     }
+
+  }
+  @media only screen and (max-width: 450px) and (min-width: 340px) {
+    .smpl-box div{
+        padding: 1rem;
+      
+    }
+    .smpl-box div p{
+        font-size: 2.2rem;
+      }
+      .smpl-box div span{
+          font-size: 1rem;
+      }
+      .smpl-box button{
+          margin-top: .5rem;
+          padding: .2rem .6rem;
+          color: white;
+      }
+      .second-hr{
+        margin-top: 3rem;
+     }
+  }
+  @media only screen and (max-width: 908px) and (min-width: 450px) {
+    .smpl-box div{
+        padding: 1.2rem;
+ 
+    }
+    .smpl-box div p{
+        font-size: 3rem;
+      }
+      .smpl-box div span{
+          font-size: 1.3rem;
+      }
+      .smpl-box button{
+          margin-top: .5rem;
+          padding: .2rem .6rem;
+          color: white;
+      }
+      .second-hr{
+        margin-top: 2rem;
+     }
+  }
+  @media only screen and (max-width: 450px) and (min-width: 280px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+    .card{
+        width: 100%;
+        border: 1 px solid gray;
+        margin-bottom: 10px
+    
+    }
+    .card img{
+        width: 98%;
+        margin: .2rem;
+    }
+    .feature-head{
+        margin: auto;
+        padding: 20px;
+       text-align: center;
+    }
+    .feature-head p{
+        font-size: 1rem;
+        padding: .4rem;
+    }
+    .feature-head div{
+        font-size: 1.5rem;
+    }
+  }
+  @media only screen and (max-width: 850px) and (min-width: 450px) {
+    .cards{
+        display: flex;
+       flex-direction: row;
+        justify-content: space-between
+      
+    }
+    .card{
+        width: 330px;
+        border: 1 px solid gray;
+        margin-bottom: 10px
+    
+    }
+    .card img{
+        width: 325px;
+        margin: .2rem;
+    }
+    .feature-head{
+        margin: auto;
+        padding: 20px;
+       text-align: center;
+    }
+    .feature-head p{
+        font-size: 1rem;
+        padding: .4rem;
+    }
+    .feature-head div{
+        font-size: 1.5rem;
+    }
+  }

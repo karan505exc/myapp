@@ -12,11 +12,3 @@
 .project__text{
     margin-top: 10px;
 }
-@media only screen and (max-width: 490px) {
-    .card__main__div{
-        width: 350px;
-        margin: auto;
-      
-     
-    }
-  }
